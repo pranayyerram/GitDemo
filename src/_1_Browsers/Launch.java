@@ -14,6 +14,7 @@ public class Launch {
 		driver=new ChromeDriver();
 		
 		driver.get("https://www.google.co.in/");
+		System.out.println("just to check git status");
 	}
 	
 	public void LaunchIEBrowser() {
